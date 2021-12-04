@@ -1,7 +1,7 @@
 const LIMIT_KEYS = 10;
 const CRON_EXPRESSION = "* * * * *";
 const DB_CONFIG = {
-    host: "172.16.210.76",
+    host: "localhost",
     port: "3333",
     user: "keylogger",
     password: "keylogger",
