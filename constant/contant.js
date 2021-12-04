@@ -8,5 +8,5 @@ const DB_CONFIG = {
     database: "keylogger"
 };
 const MAC = require('os').networkInterfaces().Ethernet[0].mac;
-
-module.exports = { LIMIT_KEYS, CRON_EXPRESSION, DB_CONFIG, MAC };
+const TEMPLATE_URI = "./template";
+module.exports = { LIMIT_KEYS, CRON_EXPRESSION, DB_CONFIG, MAC, TEMPLATE_URI };
