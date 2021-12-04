@@ -11,3 +11,9 @@ keylogger -- learning nodejs
 &nbsp;&nbsp;&nbsp;&nbsp; user: "keylogger",  
 &nbsp;&nbsp;&nbsp;&nbsp; password: "keylogger",  
 &nbsp;&nbsp;&nbsp;&nbsp; database: "keylogger"
+# run
+node app.js
+# docs
+View all log: [here](http://localhost:9999/keyloggers)  
+API get logs: [here](http://localhost:9999/api/v1/keyloggers)  
+API export logs to csv: [here](http://localhost:9999/api/v1/keyloggers/export)
